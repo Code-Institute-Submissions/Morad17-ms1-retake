@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body{
+    font-family:'PT Serif', serif;
+}
+header{
+    margin: 0;
+}
+/*---color---*/
+ul li a{
+    color: #fafafa;
+}
+.alert-warning{
+    background:#F0B543;
+}
+
+
+#nav {
+    background-color: #2E2514;
+    color: white;
+    margin-top: 0;
+    height:50px;
+}
+/*---Content---*/
+.container-fluid {
+padding-left: 0; 
+padding-right: 0;
+display:inline-block;
+
+}
+.inner{
+    position:absolute;
+}
+.title-margin{
+    margin-top:100px;
+    margin-bottom:30px;
+}
+.img-order h3{
+    margin-top:100px;
+}
+.goal-tab{
+    border-style: inset;
+    border-color: #36454f;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.goal-tab h2{
+    text-align: center;
+    padding-top:20px;
+}
+.goal-img{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.img-order{
+    display: inline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.img-article1{
+    float: left;
+    padding-right: 20px;
+    margin-bottom:20px;
+    width: 300px;
+    height: 200px;
+}
+.img-article2{
+    float: right;
+    padding-right: 20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    width: 300px;
+    height: 200px;
+}
+.card{
+    width: 30rem;
+}
+.sign-img{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.map-content img{
+    max-width: 100%;
+    width:auto;
+    height:auto;
+}
+
+.title-2{
+    font-weight: bold;
+}
+.sign-button{
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+
+.media-links li a i{
+    height:20px;
+    width:20px;
+    padding: 20px 0;
+    color:#fafafa;
+    text-align:center;
+    line-height:7px;
+}
+
+#social {
+    background-color: #2E2514;
+    color: white;
+    margin-top: 0;
+    height:70px;
+
+}
+.container-top{
+    margin-top: 50px;
+}
+.toy-img{
+    float:right;
+    width:10%;
+    display: inline;
+}
+.inline-block{
+    display:inline-block;
+}
+
+.carousel-item img{
+width:1200px;
+height:500px;
+object-fit: cover;
+}
+
+.carousel-style{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.btn-light{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
