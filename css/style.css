@@ -28,7 +28,7 @@ nav{
 }
 .navbar-collapse{
     text-decoration: none;
-    margin-left: 65vh;
+    margin-left: 60vh;
 }
 .navbar-nav li{
     padding: 0 30px;
@@ -38,10 +38,76 @@ nav{
     text-decoration: none;
     color: white;
 }
+.alert-danger{
+    margin-bottom: 0;
+}
+.hero-image-div{
+    padding: 0;
+    margin-bottom: 130px;
+}
 /*---Main Content---*/
-
+.img-article1{
+    float: left;
+    padding-right: 20px;
+    margin-bottom:20px;
+    width: 300px;
+    height: 200px;
+}
+.img-article2{
+    float: right;
+    padding-right: 20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    width: 300px;
+    height: 200px;
+}
+.card{
+    width: 30rem;
+}
+.goal-tab{
+    border-style: inset;
+    border-color: #36454f;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.goal-tab h2{
+    text-align: center;
+    padding-top:20px;
+}
+.goal-img{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.title-2{
+text-align:center;
+}
+.burger{
+    width: 30px;
+}
 /*---Footer---*/
 
 /*---Hover---*/
 
 /*---Media Queries---*/
+
+@media screen and (max-width: 1025px) and (min-width: 610px) {
+
+/*---Navbar---*/
+nav h1, .collapse a{
+    font-size: 25px;
+}
+.navbar-collapse{
+    margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+/*---Navbar---*/
+nav h1, .collapse a{
+    font-size: 20px;
+}
+.navbar-collapse{
+    margin-left: 0;
+}
+}
